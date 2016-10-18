@@ -17,7 +17,8 @@ Official bootstrap for running your own [Sentry](https://sentry.io/) with [Docke
 
 
  安装步骤：
- 官网省略了docker-compse的使用方法，实际上使用compese是最方便最傻瓜话安装的。请在服务器最好预留足够的内存，一开始遇到了很奇怪的错误https://github.com/getsentry/sentry/issues/3635
+ 官网省略了docker-compse的使用方法，实际上使用compese是最方便最傻瓜话安装的。
+ 请在服务器最好预留足够的内存，一开始遇到了很奇怪的错误["ERROR: relation "sentry_option" does not exist at character 114"](https://github.com/getsentry/sentry/issues/3635)
 - 在ubuntu server上安装docker和docker-compose工具，请自行google。
 
 ## Up and Running
